@@ -7,10 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		488141A5226099E90005AA96 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 488141A4226099E90005AA96 /* main.c */; };
 		48E14D382224061B00852151 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 48E14D372224061B00852151 /* main.c */; };
+		48E14D4322253DB400852151 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 48E14D4222253DB400852151 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		488141A0226099E90005AA96 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		48E14D25222405FF00852151 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -29,15 +40,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		48E14D3E22253DB300852151 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		488141A2226099E90005AA96 /* bisection_method_of_linear_equation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bisection_method_of_linear_equation; sourceTree = BUILT_PRODUCTS_DIR; };
+		488141A4226099E90005AA96 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		48E14D27222405FF00852151 /* my_c_practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = my_c_practice; sourceTree = BUILT_PRODUCTS_DIR; };
 		48E14D352224061B00852151 /* is_valid_date_or_not */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = is_valid_date_or_not; sourceTree = BUILT_PRODUCTS_DIR; };
 		48E14D372224061B00852151 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		48E14D4022253DB300852151 /* testing_ground */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testing_ground; sourceTree = BUILT_PRODUCTS_DIR; };
+		48E14D4222253DB400852151 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4881419F226099E90005AA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		48E14D24222405FF00852151 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -52,13 +83,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		48E14D3D22253DB300852151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		488141A3226099E90005AA96 /* bisection_method_of_linear_equation */ = {
+			isa = PBXGroup;
+			children = (
+				488141A4226099E90005AA96 /* main.c */,
+			);
+			path = bisection_method_of_linear_equation;
+			sourceTree = "<group>";
+		};
 		48E14D1E222405FF00852151 = {
 			isa = PBXGroup;
 			children = (
 				48E14D362224061B00852151 /* is_valid_date_or_not */,
+				48E14D4122253DB400852151 /* testing_ground */,
+				488141A3226099E90005AA96 /* bisection_method_of_linear_equation */,
 				48E14D28222405FF00852151 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,6 +116,8 @@
 			children = (
 				48E14D27222405FF00852151 /* my_c_practice */,
 				48E14D352224061B00852151 /* is_valid_date_or_not */,
+				48E14D4022253DB300852151 /* testing_ground */,
+				488141A2226099E90005AA96 /* bisection_method_of_linear_equation */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,9 +130,34 @@
 			path = is_valid_date_or_not;
 			sourceTree = "<group>";
 		};
+		48E14D4122253DB400852151 /* testing_ground */ = {
+			isa = PBXGroup;
+			children = (
+				48E14D4222253DB400852151 /* main.c */,
+			);
+			path = testing_ground;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		488141A1226099E90005AA96 /* bisection_method_of_linear_equation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488141A8226099E90005AA96 /* Build configuration list for PBXNativeTarget "bisection_method_of_linear_equation" */;
+			buildPhases = (
+				4881419E226099E90005AA96 /* Sources */,
+				4881419F226099E90005AA96 /* Frameworks */,
+				488141A0226099E90005AA96 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bisection_method_of_linear_equation;
+			productName = bisection_method_of_linear_equation;
+			productReference = 488141A2226099E90005AA96 /* bisection_method_of_linear_equation */;
+			productType = "com.apple.product-type.tool";
+		};
 		48E14D26222405FF00852151 /* my_c_practice */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48E14D2E222405FF00852151 /* Build configuration list for PBXNativeTarget "my_c_practice" */;
@@ -117,6 +192,23 @@
 			productReference = 48E14D352224061B00852151 /* is_valid_date_or_not */;
 			productType = "com.apple.product-type.tool";
 		};
+		48E14D3F22253DB300852151 /* testing_ground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48E14D4422253DB400852151 /* Build configuration list for PBXNativeTarget "testing_ground" */;
+			buildPhases = (
+				48E14D3C22253DB300852151 /* Sources */,
+				48E14D3D22253DB300852151 /* Frameworks */,
+				48E14D3E22253DB300852151 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testing_ground;
+			productName = testing_ground;
+			productReference = 48E14D4022253DB300852151 /* testing_ground */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -126,10 +218,16 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Michael Hui";
 				TargetAttributes = {
+					488141A1226099E90005AA96 = {
+						CreatedOnToolsVersion = 10.2;
+					};
 					48E14D26222405FF00852151 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 					48E14D342224061B00852151 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					48E14D3F22253DB300852151 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -140,6 +238,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 48E14D1E222405FF00852151;
 			productRefGroup = 48E14D28222405FF00852151 /* Products */;
@@ -148,11 +247,21 @@
 			targets = (
 				48E14D26222405FF00852151 /* my_c_practice */,
 				48E14D342224061B00852151 /* is_valid_date_or_not */,
+				48E14D3F22253DB300852151 /* testing_ground */,
+				488141A1226099E90005AA96 /* bisection_method_of_linear_equation */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4881419E226099E90005AA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488141A5226099E90005AA96 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		48E14D23222405FF00852151 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -168,9 +277,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		48E14D3C22253DB300852151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E14D4322253DB400852151 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		488141A6226099E90005AA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F89HYZ4J46;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		488141A7226099E90005AA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F89HYZ4J46;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		48E14D2C222405FF00852151 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -318,9 +453,36 @@
 			};
 			name = Release;
 		};
+		48E14D4522253DB400852151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F89HYZ4J46;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48E14D4622253DB400852151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F89HYZ4J46;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		488141A8226099E90005AA96 /* Build configuration list for PBXNativeTarget "bisection_method_of_linear_equation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488141A6226099E90005AA96 /* Debug */,
+				488141A7226099E90005AA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		48E14D22222405FF00852151 /* Build configuration list for PBXProject "my_c_practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -344,6 +506,15 @@
 			buildConfigurations = (
 				48E14D3A2224061B00852151 /* Debug */,
 				48E14D3B2224061B00852151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48E14D4422253DB400852151 /* Build configuration list for PBXNativeTarget "testing_ground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E14D4522253DB400852151 /* Debug */,
+				48E14D4622253DB400852151 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
